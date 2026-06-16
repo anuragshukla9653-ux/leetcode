@@ -9,7 +9,7 @@ let removeDublicatea = function(nums) {
 
     }
 
-    return j+1;
+    return ( j+1, nums.splice(0, j+1) );
 
 }
 
