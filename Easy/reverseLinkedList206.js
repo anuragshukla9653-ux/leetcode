@@ -53,6 +53,4 @@ let head = arrayToList([1,2,3,4,5]);
 
 printList(head);
 
-let reversed = reverseList(head);
-
-printList(reversed);
+reverseList(head);
