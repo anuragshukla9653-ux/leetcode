@@ -32,3 +32,22 @@ var validAnagram = function( s, t ) {
 
 console.log(validAnagram("anagram", "nagaram"));
 console.log(validAnagram("rat", "car"));
+
+// var isAnagram = function(s, t) {
+//     let arr = [...s];
+
+//     for ( let char of t ) {
+
+//         let index = arr.indexOf ( char );
+
+//         if ( index === -1 ) {
+//             return false;
+//         }
+
+//         arr.splice(index,1)
+
+//     }
+
+//     return arr.length === 0;
+
+// };
